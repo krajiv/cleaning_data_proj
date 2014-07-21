@@ -1,4 +1,3 @@
-library(plyr)
 #check for the existence of the dataset. The data set directory must be present in the cwd for the analysis.
 if (!file.exists("UCI HAR Dataset")) {
         stop("The data set could not be found. Ensure that the data directory 'UCI HAR Dataset' is present in the cwd")
